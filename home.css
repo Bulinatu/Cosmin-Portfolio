@@ -272,7 +272,7 @@
 
      /*Button*/
       .btn {
-        font: 500 var(--size-16) / 1.1 var(--nunito-font), sans-serif; 
+        font: 400 var(--size-16) / 1.1 var(--nunito-font), sans-serif; 
         color: var(--text-color);
         display: flex;
         position: relative;
