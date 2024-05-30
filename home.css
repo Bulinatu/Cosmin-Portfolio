@@ -139,7 +139,7 @@
         position: absolute;
         color: var(--text-color);
         display: inline;
-        top: 0%;
+        top: 40%;
         max-width: 60%;
         width: 100%;
       }
