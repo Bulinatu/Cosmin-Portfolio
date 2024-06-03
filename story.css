@@ -216,25 +216,9 @@
       /*ABOUT TEXT*/
 
       /*Title*/
-      .about_title,
-      .about_title-2 {
+      .about_title {
         font: italic 700 var(--size-45) / 100% var(--nunito-font), sans-serif;
         color: var(--text-color);
-      }
-
-      /*Favorite Playlist*/
-      .spotify {
-        flex: none;
-        height: 462px;
-        position: relative;
-        width: 100%;
-        filter: grayscale(1);
-        transition: ease-in-out all 400ms;
-      }
-
-      .spotify:hover {
-        filter: grayscale(0);
-        transition: ease-in-out all 400ms;
       }
 
       /*Text*/
@@ -389,9 +373,9 @@
     padding-top: 0.5rem;
   }
 
-  /*Favorite Playlist*/
-  .about_title-2 {
-    padding: 3rem 0rem 1.5rem 0rem;
+  /*Title*/
+  .about_title {
+    font-size: var(--size-32);
   }
 
   /*Text*/
